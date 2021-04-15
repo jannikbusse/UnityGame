@@ -15,7 +15,7 @@ public class DeleteOnscreenLeave : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < player.transform.position.y - 3)
+        if(transform.position.y < player.transform.position.y - 160)
         {
             Destroy(gameObject);
         }
